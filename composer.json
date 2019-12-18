@@ -1,0 +1,25 @@
+{
+    "name": "bashar/bashar-ui",
+    "description": "A laravel preset that leaves you at the cutting edge.",
+    "keywords": ["laravel", "laravel-ui", "laravel preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bashar Abu Joub",
+            "email": "bashar.abujoub@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BasharUI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providors" : [
+                "BasharUI\\BasharUIServiceProvider"
+            ]
+        }
+    }
+}
